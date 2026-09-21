@@ -1,0 +1,10 @@
+﻿concept,Amsterdam,MIMIC,harmonization_status
+cohort unit,first ICU-containing admission per patient with location='IC',first adult ICU stay,LOCKED_DATABASE_SPECIFIC_MAPPING
+age group,admissions.agegroup,derived age categorized to Amsterdam bins,H1_LOCKED
+sex,admissions.gender: Man/Vrouw,patients.gender: M/F,H1_LOCKED
+serum/plasma sodium,numericitems itemid 9924,frozen serum/plasma sodium definition from Step2,H1_AND_OUTCOME_LOCKED
+pre-T0 hypertonic exclusion,drugitems itemid 10739 NaCl 2.9%,frozen IV 3%/23.4% NaCl exclusion,DATABASE_SPECIFIC_PROXY_LOCKED
+direct NaCl 0.9%,"drugitems itemid 7293, Rule B allocated volume",frozen direct-fluid definition,EXPOSURE_LOCKED
+direct LR,"drugitems itemid 7316, Rule B allocated volume",frozen direct-fluid definition,EXPOSURE_LOCKED
+direct D5W,"drugitems itemid 7257, Rule B allocated volume",frozen direct-fluid definition,EXPOSURE_LOCKED
+carrier fluid,context only,excluded from harmonized replication,NOT_IN_FORMAL_REPLICATION

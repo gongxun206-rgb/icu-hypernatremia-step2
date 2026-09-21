@@ -1,0 +1,9 @@
+# Compatibility template only; not the exact historical frozen environment.
+numpy
+pandas
+scipy
+statsmodels
+matplotlib
+joblib
+PyYAML
+pytest

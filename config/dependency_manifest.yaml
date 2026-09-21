@@ -1,0 +1,25 @@
+primary:
+  mimic:
+    required:
+      - authorized_mimiciv_v3_1_database
+      - restricted_step1_locked_cohort_key
+      - restricted_primary_cohort_feature_dataset
+      - restricted_step2_primary_window_source
+      - config/frozen_preprocessing_parameters.json
+  amsterdam:
+    required:
+      - authorized_amsterdamumcdb_database
+optional_sensitivity:
+  mimic:
+    - frozen_step1_prediction_files
+    - restricted_mimic_manual_review_file
+    - structural_sensitivity_source_files
+  amsterdam:
+    - restricted_amsterdam_manual_review_file
+qc_or_semantic_review:
+  - researcher_review_template_and_restricted_confirmed_review
+legacy_or_unused:
+  - lasso_final_development.joblib
+public_safety:
+  patient_level_data_in_repository: false
+  restricted_outputs_ignored_by_git: true

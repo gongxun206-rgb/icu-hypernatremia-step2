@@ -1,0 +1,6 @@
+﻿order,variable,role,type,timing,common_definition,reference,missing_rule,authorized
+1,age_group,common_adjustment,categorical,known at ICU admission,18-39/40-49/50-59/60-69/70-79/>=80 years,18-39,complete-case model if missing; report count,YES
+2,sex_male,common_adjustment,binary,known at ICU admission,male=1; female=0,female,complete-case model if missing; report count,YES
+3,sodium_last_pre_t0,common_adjustment,continuous,"latest eligible serum/plasma Na in [ICU admission,T0)","mmol/L, no pooling of non-primary sodium sources",NA,not missing by cohort eligibility,YES
+4,coexposure_direct_1,preauthorized_coexposure,binary,"[T0,T1)",any documented direct exposure to first non-focal fluid,none,0 only after database-specific direct-fluid interface eligibility,YES
+5,coexposure_direct_2,preauthorized_coexposure,binary,"[T0,T1)",any documented direct exposure to second non-focal fluid,none,0 only after database-specific direct-fluid interface eligibility,YES

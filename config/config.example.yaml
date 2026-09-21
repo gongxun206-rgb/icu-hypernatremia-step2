@@ -1,0 +1,20 @@
+mimic:
+  host: YOUR_HOST
+  port: 5432
+  database: YOUR_MIMIC_DATABASE
+  user: YOUR_USER
+  locked_cohort_csv: /path/outside/repository/step2_locked_cohort_key_v1.0.csv
+
+amsterdam:
+  psql: psql
+  host: YOUR_HOST
+  port: 5432
+  database: YOUR_AMSTERDAM_DATABASE
+  user: YOUR_USER
+  optional_researcher_review_csv: /path/outside/repository/researcher_confirmed_review.csv
+
+restricted_root: /path/outside/repository/restricted_data
+output_root: ./outputs
+
+public_metadata:
+  frozen_preprocessing_parameters: config/frozen_preprocessing_parameters.json

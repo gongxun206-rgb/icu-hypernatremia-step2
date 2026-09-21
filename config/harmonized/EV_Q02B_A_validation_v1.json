@@ -1,0 +1,32 @@
+{
+  "task": "EV-Q02B Phase A common specification lock",
+  "generated_at": "2026-09-20T09:07:35.976584+08:00",
+  "database_accessed": false,
+  "common_spec_lock": "PASS",
+  "q02a_gate_verified": "READY_FOR_DIRECT_ONLY_HARMONIZED_REPLICATION",
+  "mimic_q07_qc_lock_verified": "MIMIC_STEP2_LOCKED_AFTER_Q07_QC",
+  "h1_common_covariates": [
+    "age_group",
+    "sex_male",
+    "sodium_last_pre_t0"
+  ],
+  "preauthorized_coexposure_terms": 2,
+  "h2_extended_adjustment": "NOT_AUTHORIZED_IN_EV_Q02B_V1",
+  "carrier_status": "CARRIER_CONTEXT_ONLY",
+  "prohibited_analyses_authorized": [],
+  "input_sha256": {
+    "step2\\Step2_Amsterdam_EV_Q02A_protocol_lock\\Step2_Amsterdam_EV_Q02A_protocol_lock_researcher_confirmed_v1.md": "8f24dcd8cfe4fbd28ea652288873f67d48ed4a7d0e90dd7cd80f78e98dfe3841",
+    "step2\\Step2_Amsterdam_EV_Q02A_protocol_lock\\amsterdam_ev_q02a_harmonized_endpoint_lock_confirmed_v1.md": "b4a9ccf15801784e260f573e559aa9f178f69e62da4ae3690bd391c34cd923e3",
+    "step2\\Step2_Amsterdam_EV_Q02A_protocol_lock\\amsterdam_ev_q02a_direct_fluid_lock_v1.md": "d4b297aa98ad300bfb0acaa810d71d7711299f73c684c472442201bfecff36eb",
+    "step2\\Step2_Amsterdam_EV_Q02A_protocol_lock\\amsterdam_ev_q02a_adjustment_framework_lock_v1.csv": "fcef0cab25ee74820cca1666c0fdd64ba4eaedc39d8914815ba481cc22a30160",
+    "step2\\Step2_Amsterdam_EV_Q02A_protocol_lock\\amsterdam_ev_q02a_validation_researcher_confirmed_v1.json": "d85341d94104073048e6b0a3d40e992e7800ae4ed5a08001ed2a048721d0885b",
+    "step2\\Step2_New_Q07_QC_final_consistency\\Step2_New_Q07_QC_final_report_v1.md": "e2d2aa5bb920e532c58add168dd273950c026fddcb45c52d79d5a8e26b75edec",
+    "step2\\Step2_New_Q07_QC_final_consistency\\step2_new_q07_qc_validation_v1.json": "19a833961b49e11a992d0aeef1a825c697865e939e81c6584701f9a8634edea0"
+  },
+  "output_sha256": {
+    "EV_Q02B_A_common_analysis_spec_v1.md": "dba4836c260ee3df2cd38f1b337c10934d05b8b50e21050dd0d97a3acf231f15",
+    "EV_Q02B_A_harmonized_common_covariates_v1.csv": "7894aee8143cc2f5a62dddccd87b3f3e8039553f068388738cbe1ce80080baf0",
+    "EV_Q02B_A_database_specific_mapping_v1.csv": "949db3ba677efe101b2caf52d521b4a83b7e468788af611b2541a24b7ea45c9c"
+  },
+  "stop_rule": "PHASE_A_COMPLETE_PROCEED_ONLY_TO_AMSTERDAM_PHASE_B"
+}

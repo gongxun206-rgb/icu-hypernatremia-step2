@@ -1,0 +1,5 @@
+# Reproducibility notes
+
+The public code preserves the frozen logic while replacing private absolute paths with environment variables or psql variables. Restricted row-level files are intentionally absent. The exact historical Python and principal-package versions were not recoverable from frozen artifacts, so `environment/requirements-template.txt` is a compatibility template. Reproduction requires authorized local source databases and the same frozen cohort/intermediate definitions described in the manuscript.
+
+`config/frozen_preprocessing_parameters.json` is a public, non-patient metadata export from the locked development preprocessing pipeline. It records variable names, imputation values, missing-indicator mapping, scaling parameters, categorical reference levels, and binary encoding rules. The public primary association path reads this metadata rather than a non-public `.joblib` object. Frozen Step 1 predictions and researcher manual-review files remain optional local inputs for prespecified sensitivities or semantic QC; their absence must not block either database's primary analysis.
