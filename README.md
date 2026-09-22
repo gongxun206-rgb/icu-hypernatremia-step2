@@ -81,9 +81,15 @@ python -m pytest -q
 
 The tests cover time-window boundaries, Rules A/B/C, and repository safety. They do not substitute for authorized database execution.
 
-## Citation and archive
+## Citation
 
-Release target: `v1.0.0`; Git tag target: `manuscript-submission-v1`. The GitHub repository URL and Zenodo version DOI will be added only after author review and public release.
+Manuscript-submission code release: `v1.0.0`
+
+- GitHub repository: https://github.com/gongxun206-rgb/icu-hypernatremia-step2
+- Version DOI: https://doi.org/10.5281/zenodo.22885487
+- Concept DOI (all versions): https://doi.org/10.5281/zenodo.22885486
+
+The Version DOI corresponds to the frozen `v1.0.0` code release used for the manuscript. The Concept DOI refers to the software record across versions.
 
 ## License
 

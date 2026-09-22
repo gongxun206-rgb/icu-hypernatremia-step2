@@ -3,6 +3,9 @@ message: "If you use this code, please cite the archived software release and th
 title: "Code for documented early direct saline exposure and recorded ICU hypernatremia"
 type: software
 version: 1.0.0
+doi: 10.5281/zenodo.22885487
+date-released: 2026-09-22
+repository-code: "https://github.com/gongxun206-rgb/icu-hypernatremia-step2"
 authors:
   - family-names: Zhang
     given-names: Shuning
