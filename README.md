@@ -91,6 +91,10 @@ Manuscript-submission code release: `v1.0.0`
 
 The Version DOI corresponds to the frozen `v1.0.0` code release used for the manuscript. The Concept DOI refers to the software record across versions.
 
+The confirmed software creators, in order, are Xun Gong, Haixing Hu, Xiaomin Dong, Wei Chen, and Cheng Lin. Software creators are distinct from manuscript authors. `CITATION.cff` describes the software; it does not claim that the associated manuscript is a published article.
+
+Metadata corrections on `main` do not move the frozen `v1.0.0` tag or modify its archived source files. The repository supports the workflows and selected aggregate reporting described above, not one-command reproduction of every submission table and figure.
+
 ## License
 
 Project-authored code is released under the MIT License. No third-party AmsterdamUMCdb or eICU repository code is copied into this repository.
